@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="row">
-            <span class="copyright center">Developed by <strong>IT4KIDS member</strong> <a href="https://www.linkedin.com/in/ahmedsoli/">Soliman</a></span>
+            <span class="copyright center">Developed by <strong>IT4KIDS member</strong> <a href="mailto:asoliman96@gmail.com">Soliman</a></span>
         </div>
     </div>
 </footer>
