@@ -27,7 +27,7 @@
                         <i>Everybody should learn how to  <strong style="color:black">code</strong>, because it teaches you how to  <strong style="color:black">think</strong>.
                         <br>
                         <span style="color:black;font-size: small;">- Steve Jobs</span>
-                        <strong style="color:black"></i>
+                        </i>
                     </p>
                 </div>
                 @include('reusableComponents.console')
@@ -35,7 +35,9 @@
         </div>
     </div>
 </section>
-<section id="cards" style="background-color:#b3b3b3;">
+
+
+<section id="cards" style="background-color:#b3b3b3; margin-top:200px;">
     <div class="container">
         <div class="row pb-3" >
             <div class="col-md-6">

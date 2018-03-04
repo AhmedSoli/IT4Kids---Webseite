@@ -36,7 +36,7 @@ class PageController extends Controller
 
     public function partner()
     {
-        return view('public.lehrkonzept');
+        return view('public.partner');
     }
 
     public function vision()

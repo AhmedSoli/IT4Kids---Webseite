@@ -14,7 +14,7 @@
 Route::get('/', 'PageController@welcome')->name('welcome');
 Route::get('/lehrmaterial', 'PageController@lehrmaterial')->name('lehrmaterial');
 Route::get('/team', 'PageController@team')->name('team');
-Route::get('/partner', 'PageController@team')->name('partner');
+Route::get('/partner', 'PageController@patner')->name('partner');
 Route::get('/software', 'PageController@software')->name('software');
 Route::get('/vision', 'PageController@vision')->name('vision');
 Route::get('/blog', 'PageController@blog')->name('blog');

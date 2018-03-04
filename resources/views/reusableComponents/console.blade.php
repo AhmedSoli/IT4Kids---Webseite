@@ -10,6 +10,10 @@
 </ul>
 
 <style>
+   @media (max-width: 991px){
+   .console {  
+      min-height:200px !important;
+   }}
    /* Console*/
    .console {
    counter-reset: line;
