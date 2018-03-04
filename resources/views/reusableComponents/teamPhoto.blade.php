@@ -18,9 +18,9 @@
             <div class="col-sm-5 col-xs-12">
                 <div class="team-text">
                     <p style="margin-top:25%; font-size: medium;">
-                        IT4Kids ist ein Team aus Studierenden der Initiative Enactus Aachen e.V. (Hyperlink).
+                        IT4Kids ist ein Team aus Studierenden der Initiative <a href="http://aachen.enactus.de/">Enactus Aachen e.V.</a>.
                         Wir sind aus unterschiedlichen Fachrichtungen und Disziplinen, aber haben alle dasselbe Ziel:
-                        Informatikbildung für Kinder. Erfahre hier mehr über uns.
+                        Informatikbildung für Kinder. Erfahre <a href="{{route('team')}}">hier</a> mehr über uns.
                     </p>
                 </div>
             </div>

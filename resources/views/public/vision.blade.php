@@ -14,24 +14,24 @@
     </div>
     <div class="row">
         <p>
-            Diese Vision ist es, was uns antreibt. Wir sind eine Gruppe von Studenten, die im Rahmen von <a href="http://aachen.enactus.de/" style="color:red">Enactus Aachen</a>  das Projekt IT4Kids gestartet haben. Einige von uns programmieren selbst schon seit jungen Jahren, während andere diese Chance bis ins Studium nicht hatten. Um diesen Missstand zu beheben haben wir uns zusammengetan.
+            Diese Vision ist es, was uns antreibt. Wir sind eine Gruppe von Studenten, die im Rahmen von <a href="http://aachen.enactus.de/" class="link">Enactus Aachen</a>  das Projekt IT4Kids gestartet haben. Einige von uns programmieren selbst schon seit jungen Jahren, während andere diese Chance bis ins Studium nicht hatten. Um diesen Missstand zu beheben haben wir uns zusammengetan.
         </p>
         <p>Informatik wird an deutschen Schulen in der Regel frühestens ab der Mittelstufe (Klasse 7) gelehrt. Früher gibt es wenig Angebote, und der „PC-Unterricht“ an Schulen ist oft auf das Bedienen des Rechners und Standardanwengungen (Office, Bildbearbeitung) beschränkt.
         </p>
         <p>
-            Die naheliegendste Lösung wäre es natürlich, mit Schulen zu kooperieren, sodass diese Programmierung in den Unterricht aufnehmen oder als AG anbieten können. Dieses Angebot bieten wir auch, allerdings werden laut einer Studie bis 2025 35.000 Lehrer fehlen <a href="" style="color:red">(Bertelsmann, 2018)</a>. Dieser Personalmangel macht es für viele Schulen sehr schwierig eigene Angebote zu entwickeln oder anzubieten.
+            Die naheliegendste Lösung wäre es natürlich, mit Schulen zu kooperieren, sodass diese Programmierung in den Unterricht aufnehmen oder als AG anbieten können. Dieses Angebot bieten wir auch, allerdings werden laut einer Studie bis 2025 35.000 Lehrer fehlen <a href="" class="link">(Bertelsmann, 2018)</a>. Dieser Personalmangel macht es für viele Schulen sehr schwierig eigene Angebote zu entwickeln oder anzubieten.
         </p>
         <p>
             Um das Problem des fehlenden Tutors zu lösen, bieten wir Schulen an, einen Tutor zu organisieren. Dieser ist in der Regel ein Student, den wir anwerben, prüfen und mit Material ausstatten, um den Kurs an der Schule selbstständig durchzuführen. Das erlaubt es auch Kindern an Schulen mit fehlendem (Fach-)Personal an einem Informatikkurs teilzunehmen
         </p>
         <p>
-            Neben der Organisation der Kurse hat IT4Kids noch zwei wichtige Aufgabenbereiche: Die Entwicklung von <a href="{{route('lehrmaterial')}}" style="color:red">Lehrmaterial</a> und Lernsoftware (Hyperlink). Beides dient dazu, den Unterricht möglichst einfach durchführen zu können und die Erfahrung der Kinder zu optimieren.
+            Neben der Organisation der Kurse hat IT4Kids noch zwei wichtige Aufgabenbereiche: Die Entwicklung von <a href="{{route('lehrmaterial')}}" class="link">Lehrmaterial</a> und <a href="{{route('software')}}" class="link">Lernsoftware </a>. Beides dient dazu, den Unterricht möglichst einfach durchführen zu können und die Erfahrung der Kinder zu optimieren.
         </p>
         <p>
             Wir haben nicht das Ziel allen Kindern programmieren beizubringen. Wir versprechen nicht, dass ein Kind nach einem unserer Kurse Code schreiben kann. Was wir aber versuchen, ist, dass jedes Kind nach dem Kurs ein Gefühl dafür hat, was programmieren bedeutet. Auf diese Weise ermöglichen wir ganz neue Perspektiven, gerade im Bezug auf logisches Denken und Problemlösung. Und nicht zuletzt wollen wir den Kindern auch zeigen, dass Programmeiren und Technologie viel Spaß machen können.
         </p>
         <p>
-            Um auf dem neusten Stand zu bleiben empfehlen wir auch unseren <a href="{{route('blog')}}" style="color:red">Blog</a>. Wenn wir Interesse geweckt haben nehmen Sie gerne Kontakt (Hyperlink) zu uns auf.
+            Um auf dem neusten Stand zu bleiben empfehlen wir auch unseren <a href="{{route('blog')}}" class="link">Blog</a>. Wenn wir Interesse geweckt haben nehmen Sie gerne <a href="/#mitmachen">Kontakt</a> zu uns auf.
         </p>
     </div>
 </div>
