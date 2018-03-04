@@ -14,7 +14,7 @@
 		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 		@yield('style')
 	</head>
-	<body>
+	<body style="zoom:0.9;">
 		@include('layouts.navbar')
 		@include('layouts.socialIcons')
 		<div class="pt-5 mt-5">
