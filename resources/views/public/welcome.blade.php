@@ -180,11 +180,9 @@ float:left;
 float:right;
 }
 .blue {
-background-color: blue;
 opacity:0.75;
 }
 .red {
-background-color: red;
 opacity:0.75;
 
 }
