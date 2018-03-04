@@ -37,7 +37,7 @@
 </section>
 
 
-<section id="cards" style="background-color:#b3b3b3; margin-top:200px;">
+<section id="cards" style="background-color:#3A3A3C; margin-top:200px;">
     <div class="container">
         <div class="row pb-3" >
             <div class="col-md-6">
