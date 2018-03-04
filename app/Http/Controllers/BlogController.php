@@ -10,12 +10,8 @@ use Illuminate\Support\Facades\Auth;
 
 class BlogController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+
+   public function index()
     {
         $posts = Post::all();
         return view('blog.index',compact('posts'));
@@ -28,6 +24,7 @@ class BlogController extends Controller
      */
     public function create()
     {
+        $this->middleware('auth');
         return view('blog.create');
     }
 
@@ -39,6 +36,7 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
+        $this->middleware('auth');
         $request->validate([
             'title' => 'required|string',
             'body' => 'required|string',

@@ -17,7 +17,7 @@ Route::get('/team', 'PageController@team')->name('team');
 Route::get('/partner', 'PageController@team')->name('partner');
 Route::get('/software', 'PageController@software')->name('software');
 Route::get('/vision', 'PageController@vision')->name('vision');
-Route::get('/blog', 'BlogController@index')->name('blog');
+Route::get('/blog', 'PageController@blog')->name('blog');
 Route::get('/impressum', 'PageController@impressum')->name('impressum');
 
 
@@ -36,10 +36,11 @@ Route::get('/blog/{post}', 'BlogController@show')->name('showPost');
 /*=====  End of Blog  ======*/
 
 
-/*=============================================
-=            Section comment block            =
-=============================================*/
-Route::get('/team/create', 'BlogController@create')->name('createPost');
-Route::post('/team', 'BlogController@store')->name('storePost');
+/*============================
+=            Team            =
+============================*/
 
-/*=====  End of Section comment block  ======*/
+Route::post('/team','MemberController@store')->name('storeMember');
+Route::get('/team/create','MemberController@create')->name('createMember');
+
+/*=====  End of Team  ======*/

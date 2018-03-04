@@ -9,13 +9,34 @@
         </p>
     </div>
     <div class="row" id="leitung">
+        <h3 class="center">Leitung</h3>
         @foreach($leaders as $leader)
+        <div class="card col-md-3">
+            <img class="card-img-top img-fluid" src="{{$leader->image}}" alt="Card image">
+            <div class="card-body text-center">
+                <h4 class="card-title center">{{$leader->name}}</h4>
+            <p class="card-text">{{$leader->description}}</a>
+            <span data-toggle="tooltip" title="{{$leader->email}}">
+                <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
+            </span>
+        </div>
         @endforeach
     </div>
-    <div class="row" id="members">
-        @foreach($members as $members)
-        @endforeach
+</div>
+<div class="row" id="members">
+    <h3 class="center">Members</h3>
+    @foreach($members as $members)
+    <div class="card col-md-3">
+        <img class="card-img-top img-fluid" src="{{$member->image}}" alt="Card image">
+        <div class="card-body text-center">
+            <h4 class="card-title center">{{$member->name}}</h4>
+        <p class="card-text">{{$member->description}}</a>
+        <span data-toggle="tooltip" title="{{$member->email}}">
+            <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
+        </span>
     </div>
+    @endforeach
+</div>
 </div>
 @endsection
 @section('script')

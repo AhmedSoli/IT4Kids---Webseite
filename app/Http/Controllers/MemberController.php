@@ -7,6 +7,12 @@ use App\Member;
 
 class MemberController extends Controller
 {
+
+     public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     /**
      * Display a listing of the resource.
      *
@@ -40,10 +46,13 @@ class MemberController extends Controller
             'name' => 'required|string',
             'email' => 'required|email',
             'image' => 'required|url',
-            'description' => 'required|string'
+            'description' => 'required|string',
+            'leader' => 'required|boolean'
         ]);
 
         $member = new Member($request->all());
+
+        return dd($member);
 
         return redirect()->route('showMembers');;
 

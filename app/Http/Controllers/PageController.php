@@ -2,7 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
-
+use App\Member;
 class PageController extends Controller
 {
 /**
@@ -29,7 +29,9 @@ class PageController extends Controller
 
     public function team()
     {
-        return view('public.team');
+        $members = Member::where('leader','=',false)->get();
+        $leaders = Member::where('leader','=',true)->get();
+        return view('public.team',compact('members','leaders'));
     }
 
     public function partner()
@@ -50,4 +52,11 @@ class PageController extends Controller
     public function impressum(){
         return view('public.impressum');
     }
+
+    public function blog()
+    {
+        $posts = Post::all();
+        return view('blog.index',compact('posts'));
+    }
+
 }

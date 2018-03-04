@@ -14,8 +14,6 @@
             </div>
             <div class="col-4">
                 <ul class="list-inline quicklinks" style="float:right">
-                    <li class="list-inline-item"><a href="/privacyPolicy">Privacy Policy</a>
-                    </li>
                     <li class="list-inline-item"><a href="{{route('impressum')}}">Impressum</a>
                     </li>
                 </ul>
