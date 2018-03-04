@@ -16,6 +16,8 @@
                 <ul class="list-inline quicklinks" style="float:right">
                     <li class="list-inline-item"><a href="{{route('impressum')}}">Impressum</a>
                     </li>
+                    <li class="list-inline-item"><a href="{{route('login')}}">Sign in</a>
+                    </li>
                 </ul>
             </div>
         </div>
