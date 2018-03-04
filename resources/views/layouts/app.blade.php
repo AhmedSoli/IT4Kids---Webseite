@@ -15,23 +15,50 @@
         <div id="app">
             <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                 <div class="container">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand center" href="/login">
+                        <img alt="IT4KIDS LOGO" class="hidden-xs" src="{{ URL::to('/') }}/images/logo.png" style="height:50px;padding:7.5px;">
+                        </img>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- Left Side Of Navbar -->
-                        <ul class="navbar-nav mr-auto">
-                        </ul>
                         <!-- Right Side Of Navbar -->
+                        <ul class="navbar-nav mr-auto">
+                            <li><a class="nav-link" href="{{ route('welcome') }}">Landing Page</a></li>
+                        </ul>
                         <ul class="navbar-nav ml-auto">
                             <!-- Authentication Links -->
                             @guest
                             <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                             <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
                             @else
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Team <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('createMember') }}">
+                                        Add
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('indexMembers') }}">
+                                        View & Edit 
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('createPost') }}">
+                                        Add
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('indexPosts') }}">
+                                        View & Edit
+                                    </a>
+                                </div>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>

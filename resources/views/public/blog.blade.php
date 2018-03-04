@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.public')
 @section('content')
 <div class="container">
 	<div class="row">
@@ -13,7 +13,6 @@
 					<h4 class="card-title">{{$post->title}}</h4>
 					<p class="card-text">{{substr($post->body,0,100)}}</p>
 					<a href="{{route('showPost',['post' => $post->id])}}" class="btn btn-primary">Read More</a>
-					<a href="{{route('editPost',['post' => $post->id])}}">Edit</a>
 				</div>
 			</div>
 		</div>

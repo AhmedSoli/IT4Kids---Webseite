@@ -2,7 +2,7 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-4">
-                <span class="copyright">Copyright &copy; Your Website 2016</span>
+                <span class="copyright">Copyright &copy; 2018 IT4KIDS</span>
             </div>
             <div class="col-4">
                 <ul class="list-inline social-buttons text-center">

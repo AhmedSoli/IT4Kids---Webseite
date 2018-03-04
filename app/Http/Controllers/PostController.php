@@ -2,19 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Post;
-
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-
-class BlogController extends Controller
+class PostController extends Controller
 {
 
-   public function index()
+    public function index()
     {
+        $this->middleware('auth');
         $posts = Post::all();
-        return view('blog.index',compact('posts'));
+        return view('blog.index', compact('posts'));
     }
 
     /**
@@ -39,15 +38,14 @@ class BlogController extends Controller
         $this->middleware('auth');
         $request->validate([
             'title' => 'required|string',
-            'body' => 'required|string',
-            'image' => 'required|url'
+            'body'  => 'required|string',
+            'image' => 'required|url',
         ]);
-        
 
-        $post = new Post(['title' => $request->title,'image' => $request->image,'body' => $request->body,'user_id' => Auth::id()]);
+        $post = new Post(['title' => $request->title, 'image' => $request->image, 'body' => $request->body, 'user_id' => Auth::id()]);
         $post->save();
 
-        return redirect()->route('showPost', ['post' => $post->id]);;
+        return redirect()->route('showPost', ['post' => $post->id]);
     }
 
     /**
@@ -58,7 +56,7 @@ class BlogController extends Controller
      */
     public function show(Post $post)
     {
-        return view('blog.show',compact('post'));
+        return view('blog.show', compact('post'));
     }
 
     /**
@@ -67,9 +65,10 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Post $post)
     {
-        //
+        $this->middleware('auth');
+        return view('blog.edit', compact('post'));
     }
 
     /**
@@ -81,7 +80,15 @@ class BlogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->middleware('auth');
+        $request->validate([
+            'title' => 'required|string',
+            'body'  => 'required|string',
+            'image' => 'required|url',
+        ]);
+
+        $post->update(['title' => $request->title, 'image' => $request->image, 'body' => $request->body, 'user_id' => Auth::id()]);
+        return back();
     }
 
     /**
@@ -90,8 +97,9 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Post $post)
     {
-        //
+        $post->delete();
+        return redirect()->action('PostController@index');
     }
 }
