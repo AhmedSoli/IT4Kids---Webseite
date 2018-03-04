@@ -51,10 +51,8 @@ class MemberController extends Controller
         ]);
 
         $member = new Member($request->all());
-
-        return dd($member);
-
-        return redirect()->route('showMembers');;
+        $member->save();
+        return back();
 
     }
 
