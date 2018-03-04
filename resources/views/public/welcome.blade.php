@@ -168,8 +168,8 @@ padding-top:25% !important;
 }
 }
 .box {
-height: 20px;
-width: 20px;
+height: 10px;
+width: 10px;
 }
 .fl {
 float:left;
@@ -179,9 +179,12 @@ float:right;
 }
 .blue {
 background-color: blue;
+opacity:0.75;
 }
 .red {
 background-color: red;
+opacity:0.75;
+
 }
 </style>
 @endsection
