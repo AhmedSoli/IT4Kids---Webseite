@@ -60,7 +60,7 @@
                     <div style="position: absolute;bottom: 25px;right: 25px;">
                         <a href="/lehrmaterial">Mehr Erfahren <i class="fa fa-external-link" aria-hidden="true"></i></a>
                     </div>
-                    <div style="position:absolute;bottom:20px;width:100%;">
+                    <div style="position:absolute;bottom:10px;width:100%;">
                         <span class="box blue fr"></span>
                         <span class="box red fl"></span>
                     </div>
