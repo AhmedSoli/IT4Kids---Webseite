@@ -54,7 +54,7 @@
                         <span class="box red fr"></span>
                     </div>
                     <h3 class="heading" style="font-size: xx-large;padding-top:10%" id="lehrmaterialHeading">Lehrmaterial</h3>
-                    <p id="lehrmaterialText">
+                    <p id="lehrmaterialText" style="padding-top:5%;">
                         Wir haben aus unseren Erfahrungen der letzten Jahre bereits Vorlagen und Empfehlungen abgeleitet, wie Informatikkurse und –AGs durchgeführt werden können. Jetzt kümmern wir uns darum dies in ein ganzheitliches Konzept zu gießen, mit dem Kurse unkompliziert an jeder Schule durchgeführt werden können.
                     </p>
                     <div style="position: absolute;bottom: 25px;right: 25px;">
