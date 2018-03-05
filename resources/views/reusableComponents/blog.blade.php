@@ -11,7 +11,7 @@
         <div class="row">
 
             @foreach($posts as $post)
-            <div class="col-md-3 col-sm-4 col-12 m-1">
+            <div class="col-md-3  col-6">
                 <div class="card shadow">
                     <img class="card-img-top" src="{{$post->image}}" style="height:200px" alt="Post Image">
                     <div class="card-body">

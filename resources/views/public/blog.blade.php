@@ -6,7 +6,7 @@
 	</div>
 	<div class="row">
 		@foreach($posts as $post)
-		<div class="col-md-3 col-6 m-2">
+		<div class="col-md-3 col-sm-4 col-6 m-2">
 			<div class="card">
 				<img class="card-img-top" src="{{$post->image}}" style="height:150px" alt="Post Image">
 				<div class="card-body">
