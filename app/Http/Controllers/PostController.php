@@ -56,7 +56,8 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        return view('blog.show', compact('post'));
+        $posts = Post::orderBy('created_at','desc')->limit(3)->get();
+        return view('blog.show', compact('post','posts'));
     }
 
     /**
@@ -78,7 +79,7 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Post $post)
     {
         $this->middleware('auth');
         $request->validate([
