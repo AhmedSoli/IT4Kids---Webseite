@@ -2,15 +2,14 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col-sm-4 col-12">
+		<div class="col-md-4 col-12">
 			<div class="row">
-				<h1 style="font-weight: 400;font-size:50px">{{$post->title}}</h1>
+				<h1 style="font-weight: 400;font-size:45px">{{$post->title}}</h1>
 			</div>
 			<div class="row text-muted" style="font-size:20px">{{$post->created_at->diffForHumans()}}, {{$post->created_at}}</div>
-			<div class="row "><span class="center">{{$post->user->name}}</span></div>
-			<div class="row"><img src="{{$post->user->image}}" class="rounded-circle img center" style="height:75px" alt=""></div>
+			<div class="row "><span> - {{$post->user->name}}</span></div>
 		</div>
-		<div class="col-sm-8 col-12">
+		<div class="col-md-8 col-12">
 			<div class="jumbotron" style="width:100%; height:200px;background-image: url('{{$post->image}}');background-size:cover;background-repeat: no-repeat;background-position: center center">
 			</div>
 		</div>
