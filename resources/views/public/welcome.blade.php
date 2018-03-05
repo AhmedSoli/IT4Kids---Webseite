@@ -162,10 +162,10 @@ padding-right: 5%;
 }
 }
 @media (max-width: 991px) and (min-width: 769px) {
-.card {
+#cards .card {
 height:300px !important;
 }
-.card h3 {
+#cards .card h3 {
 padding-top:25% !important;
 }
 }
