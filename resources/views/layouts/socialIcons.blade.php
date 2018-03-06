@@ -6,12 +6,6 @@
         		<span>Facebook</span>
         	</a>
         </li>
-        <li>
-        	<a href="#" class="entypo-linkedin" target="_blank">
-        		<img src="{{ URL::to('/') }}/images/linkedin-logo.png" alt="LinkedIn Logo">
-        		<span>LinkedIn</span>
-        	</a>
-        </li>
     </ul>
 </aside>
 

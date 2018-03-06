@@ -8,8 +8,6 @@
                 <ul class="list-inline social-buttons text-center">
                     <li class="list-inline-item"><a href="https://www.facebook.com/itforkids.org/"><i class="fa fa-facebook"></i></a>
                     </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
                 </ul>
             </div>
             <div class="col-4">
