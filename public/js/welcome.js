@@ -76,7 +76,7 @@ $(document).ready(function() {
                 lastAction == "100";
             }
             $('#logo').animate({
-                height: "80"
+                height: "100"
             });
         }
     });
