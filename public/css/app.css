@@ -2294,6 +2294,11 @@ readers do not read off random characters that represent icons */
         font-size: 1.5em;
     }
 }
+@media (max-width: 422px) {
+    #logo {
+        max-height:65px !important;
+    }
+}
 .center {
     margin-left: auto;
     margin-right: auto;

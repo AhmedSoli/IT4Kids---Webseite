@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-default fixed-top navbar-custom">
   <a class="navbar-brand" href="/">
-    <img alt="IT4KIDS LOGO" class="hidden-xs" src="{{ URL::to('/') }}/images/logo.png" style="height:50px;padding:7.5px;">
+    <img id="logo" alt="IT4KIDS LOGO" class="hidden-xs" src="{{ URL::to('/') }}/images/logo.png" style="height:80px;padding:7.5px;">
     </img>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
