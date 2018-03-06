@@ -1,8 +1,11 @@
 @extends('layouts.public')
 @section('content')
-<div class="container">
+<div class="container text-center">
 	<div class="row">
 		<h3 class="center">Blog</h3>
+	</div>
+	<div class="row">
+		<p class="text-muted center">In unserem Blog können Sie unsere aktuellen Beiträge zum Thema Digitalbildung und Sozialunternehmertum in der Bildungsbranche lesen.</p>
 	</div>
 	<div class="row">
 		@foreach($posts as $post)

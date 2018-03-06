@@ -7,7 +7,7 @@
                     text-transform: uppercase;
                     font-weight: 700;
                     font-size: xx-large;
-                ">Unser geiles Team</div>
+                ">Unser Team</div>
                 <div class="section-subheading text-muted">Diese Leute ermöglichen IT4Kids.</div>
             </div>
         </div>
