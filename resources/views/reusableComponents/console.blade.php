@@ -1,4 +1,4 @@
-<ul class="console" style="transform: scale(1, 1); display: block;list-style: none">
+<ul class="console center" style="transform: scale(1, 1); display: block;list-style: none">
    <div class="pull-right reset" data-toggle="tooltip" title="Replay"
       style=" ">
       <img style="cursor:pointer;" class="w3-hover-opacity" 
@@ -21,6 +21,7 @@
    height: auto;
    min-height: 134px;
    max-height: 134px;
+   max-width: 750px;
    overflow-y: auto;
    display: none;
    background: #F5F5F5;
