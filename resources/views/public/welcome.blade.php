@@ -37,11 +37,11 @@
 </section>
 
 
-<section id="cards" style="background-color:#3A3A3C; margin-top:200px;">
+<section id="cards" style="; margin-top:200px;">
     <div class="container">
         <div class="row pb-3" >
             <div class="col-md-6">
-                <div class="card text-center" id="lehrmaterial" style="height:250px;margin-top: -50px;">
+                <div class="card text-center" id="lehrmaterial" style="height:250px;margin-top: -50px;background:url('/images/hypnotize.png');">
                     <div>
                         <span class="box red fl"></span>
                         <span class="box blue fl"></span>
@@ -56,7 +56,7 @@
                         <span class="box red fr"></span>
                     </div>
                     <h3 class="heading" style="font-size: xx-large;padding-top:10%" id="lehrmaterialHeading">Lehrmaterial</h3>
-                    <p id="lehrmaterialText" style="padding-top:5%;">
+                    <p id="lehrmaterialText" style="padding-top:5%;background-color:rgba(20, 2, 2, 0.01);">
                         Wir haben aus unseren Erfahrungen der letzten Jahre bereits Vorlagen und Empfehlungen abgeleitet, wie Informatikkurse und –AGs durchgeführt werden können. Jetzt kümmern wir uns darum dies in ein ganzheitliches Konzept zu gießen, mit dem Kurse unkompliziert an jeder Schule durchgeführt werden können.
                     </p>
                     <div style="position: absolute;bottom: 25px;right: 25px;">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card card2 text-center" id="software" style="height:250px;margin-top: -50px">
+                <div class="card card2 text-center" id="software" style="height:250px;margin-top: -50px;background:url('/images/hypnotize.png');">
                     <div>
                         <span class="box red fl"></span>
                         <span class="box blue fl"></span>
@@ -94,7 +94,7 @@
                         <span class="box red fr"></span>
                     </div>
                     <h3 class="heading" style="font-size: xx-large;padding-top:10%" id="softwareHeading">Software</h3>
-                    <p  id="softwareText" style="padding-top:5%">Unsere momentan laufenden Kurse arbeiten mit <a href="https://scratch.mit.edu/" style="color:red;">Scratch</a>, doch wir wollen die einfache Bedienung noch um einige Features wie integrierte Lernhilfen, Fortschritts-Tracking und Vorlagen in unserer eigenen <a href="https://github.com/IT4Kids/easypie" style="color:red">Software</a> erweitern.
+                    <p  id="softwareText" style="padding-top:5%;background-color:rgba(20, 2, 2, 0.01);">Unsere momentan laufenden Kurse arbeiten mit <a href="https://scratch.mit.edu/" style="color:red;">Scratch</a>, doch wir wollen die einfache Bedienung noch um einige Features wie integrierte Lernhilfen, Fortschritts-Tracking und Vorlagen in unserer eigenen <a href="https://github.com/IT4Kids/easypie" style="color:red">Software</a> erweitern.
                 </p>
                 <div style="position: absolute;bottom: 25px;right: 25px;">
                     <a href="/software">Mehr Erfahren <i class="fa fa-external-link" aria-hidden="true"></i></a>
