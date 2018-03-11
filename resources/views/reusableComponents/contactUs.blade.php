@@ -2,10 +2,12 @@
     <div class="container">
         <div class="card p-4 center shadow" style="background-color: #f1f1f1 !important; max-width:800px;">
             <div class="row">
-                <h2 class="center section-heading" style="color: rgba(7, 0, 0, 0.29); font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 700;">Contact Us</h2>
+                <h2 class="center section-heading" style="color: rgba(7, 0, 0, 0.29); font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 700;">Schreibt uns!</h2>
             </div>
             <div class="row pt-3">
-                <h3 class=" center section-subheading text-muted" style="text-align: center">Sie wollen IT4Kids an Ihrer Schule? Du möchtest Kursbetreuer werden? Du möchtest dich einfach mit uns austauschen? Schreibt uns!</h3>
+                <h4 class=" center section-subheading text-muted" style="text-align: center">Sie wollen IT4Kids an Ihrer Schule? </h4>
+                <h4 class=" center section-subheading text-muted" style="text-align: center">Du möchtest Kursbetreuer werden?</h4>
+                <h4 class=" center section-subheading text-muted" style="text-align: center">Du möchtest dich einfach mit uns austauschen?</h4>
             </div>
             <div class="row pt-3">
                 <div class="col-lg-12">
