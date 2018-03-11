@@ -5,7 +5,7 @@
                 <h2 class="center section-heading" style="color: rgba(7, 0, 0, 0.29); font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 700;">Contact Us</h2>
             </div>
             <div class="row pt-3">
-                <h3 class=" center section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class=" center section-subheading text-muted" style="text-align: center">Sie wollen IT4Kids an Ihrer Schule? Du möchtest Kursbetreuer werden? Du möchtest dich einfach mit uns austauschen? Schreibt uns!</h3>
             </div>
             <div class="row pt-3">
                 <div class="col-lg-12">
@@ -13,18 +13,18 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name"
+                                    <input type="text" class="form-control" placeholder="Name *" id="name"
                                     required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *"
+                                    <input type="email" class="form-control" placeholder="Email *"
                                     id="email" required
                                     data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone"
+                                    <input type="tel" class="form-control" placeholder="Phone *" id="phone"
                                     required
                                     data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
@@ -32,7 +32,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" rows="6"
+                                    <textarea class="form-control" placeholder="Nachricht*" id="message" rows="6"
                                     required
                                     data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>

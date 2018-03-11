@@ -13,7 +13,9 @@
         </div>
         <div class="row">
             <div class="col-sm-7 col-xs-12">
+                <a href="{{route('team')}}">
                 <img src="{{ URL::to('/') }}/images/team.jpg" class="img-fluid" alt="Responsive image" style="box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);">
+                </a>
             </div>
             <div class="col-sm-5 col-xs-12">
                 <div class="team-text">

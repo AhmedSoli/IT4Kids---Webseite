@@ -4,7 +4,7 @@
       <img style="cursor:pointer;" class="w3-hover-opacity" 
          src="{{ URL::to('/') }}/images/repeat.png"  height="20px;" alt="">
    </div>
-   <li><span class="user">[Console]~</span> Was ist IT4KIDS?<span
+   <li><span class="user">[Console]~</span> Wer sind IT4KIDS?<span
       class="initRobot"></span></li>
    <li><span>[Console]~</span> <span class="main_text"></span><span id="typed-cursor"></span></li>
 </ul>

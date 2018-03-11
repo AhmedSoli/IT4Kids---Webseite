@@ -9,9 +9,8 @@
             </p>
         </div>
         <div class="row">
-
             @foreach($posts as $post)
-            <div class="col-md-4  col-6">
+            <div class="col-md-4  col-6" style="margin-left:auto;margin-right:auto;">
                 <div class="card shadow">
                     <img class="card-img-top" src="{{$post->image}}" alt="Post Image">
                     <div class="card-body">
