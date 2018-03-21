@@ -13,14 +13,16 @@
 </div>
 <div class="row">
     @foreach($leaders as $leader)
-    <div class="card col-md-3">
-        <img class="card-img-top img-fluid" src="{{$leader->image}}" alt="Card image">
-        <div class="card-body text-center">
-            <h4 class="card-title center">{{$leader->name}}</h4>
-            <p class="card-text">{{$leader->description}}</p>
-            <span data-toggle="tooltip" title={{$leader->email}}>
-                <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
-            </span>
+    <div class="col-md-3">
+        <div class="card" style="height:350px;overflow-y: scroll;">
+            <img class="card-img-top img-fluid" src="{{$leader->image}}" alt="Card image">
+            <div class="card-body text-center">
+                <h4 class="card-title center">{{$leader->name}}</h4>
+                <p class="card-text">{{$leader->description}}</p>
+                <span data-toggle="tooltip" title={{$leader->email}}>
+                    <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
+                </span>
+            </div>
         </div>
     </div>
     @endforeach
@@ -31,7 +33,7 @@
 <div class="row">
     @foreach($members as $member)
     <div class="col-md-3">
-        <div class="card">
+        <div class="card" style="height:350px;overflow-y: scroll;">
             <img class="card-img-top img-fluid" src="{{$member->image}}" alt="Card image">
             <div class="card-body text-center">
                 <h4 class="card-title center">{{$member->name}}</h4>
