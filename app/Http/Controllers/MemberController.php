@@ -29,8 +29,6 @@ class MemberController extends Controller
     {
         $request->validate([
             'name' => 'required|string',
-            'email' => 'email',
-            'image' => 'url',
             'description' => 'required|string',
             'leader' => 'required|boolean'
         ]);
