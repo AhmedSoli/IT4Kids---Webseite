@@ -1,4 +1,4 @@
-<aside id="sticky-social" style="z-index:1000000">
+{{-- <aside id="sticky-social" style="z-index:1000000">
     <ul>
         <li>
         	<a href="https://www.facebook.com/itforkids.org/" class="entypo-facebook" target="_blank">
@@ -11,7 +11,7 @@
 
 
 <style>
-	
+
 	aside ul {
 	  list-style: none;
 	  margin: 0;
@@ -56,4 +56,4 @@
 	#sticky-social a[class*="linkedin"],
 	#sticky-social a[class*="linkedin"]:hover,
 	#sticky-social a[class*="linkedin"] span { background: #007bb6; }
-</style>
+</style> --}}
