@@ -14,7 +14,7 @@
                 <div class="card shadow">
                     <img class="card-img-top" src="{{$post->image}}" alt="Post Image" style="height:200px;">
                     <div class="card-body">
-                        <h4 class="card-title">{{$post->title}}</h4>
+                        <h4 class="card-title" style="height:75px;">{{$post->title}}</h4>
                         <p class="card-text">{{substr($post->body,0,100)}}</p>
                         <a href="{{route('showPost',['post' => $post->id])}}" class="btn btn-primary">Read More</a>
                     </div>
