@@ -3,7 +3,8 @@
 <div class="card">
 	<div class="card-header">Edit Blog Post</div>
 	<div class="card-body">
-		<form class="text-center mb-5" action="{{route('destroyPost',['post' => $post->id])}}">
+		<form class="text-center mb-5" action="{{route('destroyPost',['post' => $post->id])}}" method="POST">
+			{{ csrf_field() }}
 			<button class="btn btn-danger center"><i class="fa fa-trash" aria-hidden="true"></i>
 			</button>
 		</form>
