@@ -33,7 +33,7 @@ class MemberController extends Controller
             'leader' => 'required|boolean'
         ]);
 
-        $member = new Member($request->all());
+        $member = new Member(['name' => $request->name, 'description' => $request->description, 'image' => $request->image,'leader' => $request->leader,'email' => $request->email]);
         $member->save();
         return back();
 
