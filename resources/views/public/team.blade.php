@@ -33,11 +33,11 @@
 <div class="row">
     @foreach($members as $member)
     <div class="col-md-3">
-        <div class="card" style="height:350px;overflow-y: scroll;">
+        <div class="card">
             <img class="card-img-top img-fluid" src="{{$member->image}}" alt="Card image">
             <div class="card-body text-center">
                 <h4 class="card-title center">{{$member->name}}</h4>
-                <p class="card-text">{{$member->description}}</p>
+                <p class="card-text" style="height:150px;overflow-y: scroll;">{{$member->description}}</p>
                 <span data-toggle="tooltip" title={{$member->email}}>
                     <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
                 </span>
