@@ -33,7 +33,7 @@ Route::get('/home', 'PageController@index')->name('home');
 Route::get('/posts/create', 'PostController@create')->name('createPost');
 Route::get('/posts', 'PostController@index')->name('indexPosts');
 Route::post('/posts', 'PostController@store')->name('storePost');
-Route::get('/posts/{post}', 'PostController@show')->name('showPost');
+Route::get('/posts/{post}', 'PageController@show')->name('showPost');
 Route::get('/posts/{post}/edit', 'PostController@edit')->name('editPost');
 Route::post('/posts/{post}', 'PostController@update')->name('updatePost');
 Route::post('/posts/{post}/destroy', 'PostController@destroy')->name('destroyPost');
