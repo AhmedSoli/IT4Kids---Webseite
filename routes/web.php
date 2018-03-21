@@ -51,6 +51,6 @@ Route::post('/members/{member}','MemberController@update')->name('updateMember')
 Route::get('/members','MemberController@index')->name('indexMembers');
 Route::get('/members/create','MemberController@create')->name('createMember');
 Route::get('/members/{member}/edit','MemberController@edit')->name('editMember');
-Route::post('/members/{member}/destroy','MemberController@edit')->name('destroyMember');
+Route::post('/members/{member}/destroy','MemberController@destroy')->name('destroyMember');
 
 /*=====  End of Team  ======*/
