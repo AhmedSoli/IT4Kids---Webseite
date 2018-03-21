@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <form class="text-center mb-5" action="{{route('destroyMember',['member' => $member->id])}}" method="POST">
+	{{ csrf_field() }}
 	<button class="btn btn-danger center"><i class="fa fa-trash" aria-hidden="true"></i>
 	</button>
 </form>
