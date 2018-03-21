@@ -9,9 +9,12 @@ use Illuminate\Support\Facades\Auth;
 class PostController extends Controller
 {
 
+    public function __construct(){
+         $this->middleware('auth');
+    }
+
     public function index()
     {
-        $this->middleware('auth');
         $posts = Post::all();
         return view('blog.index', compact('posts'));
     }
@@ -23,7 +26,6 @@ class PostController extends Controller
      */
     public function create()
     {
-        $this->middleware('auth');
         return view('blog.create');
     }
 
@@ -35,7 +37,6 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        $this->middleware('auth');
         $request->validate([
             'title' => 'required|string',
             'body'  => 'required|string',
@@ -48,18 +49,7 @@ class PostController extends Controller
         return redirect()->route('showPost', ['post' => $post->id]);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Post $post)
-    {
-        $posts = Post::orderBy('created_at','desc')->limit(3)->get();
-        return view('blog.show', compact('post','posts'));
-    }
-
+    
     /**
      * Show the form for editing the specified resource.
      *
@@ -68,7 +58,6 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        $this->middleware('auth');
         return view('blog.edit', compact('post'));
     }
 
@@ -81,7 +70,6 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        $this->middleware('auth');
         $request->validate([
             'title' => 'required|string',
             'body'  => 'required|string',

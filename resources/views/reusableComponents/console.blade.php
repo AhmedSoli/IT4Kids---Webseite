@@ -7,6 +7,7 @@
    <li><span class="user">[Console]~</span> Wer sind IT4KIDS?<span
       class="initRobot"></span></li>
    <li><span>[Console]~</span> <span class="main_text"></span><span id="typed-cursor"></span></li>
+  <a href="{{route('vision')}}" style="right:3px;bottom:0px;position:absolute; color:red">Erfahre mehr</a>
 </ul>
 
 <style>

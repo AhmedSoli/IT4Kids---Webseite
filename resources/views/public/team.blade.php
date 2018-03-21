@@ -39,8 +39,8 @@
                     <i class="fa fa-envelope" style="color:gray;" aria-hidden="true"></i>
                 </span>
             </div>
-            @endforeach
         </div>
+        @endforeach
     </div>
 </div>
     @endsection

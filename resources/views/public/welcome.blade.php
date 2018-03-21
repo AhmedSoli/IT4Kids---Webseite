@@ -2,11 +2,11 @@
 @section('content')
 <section id="main">
     <div class="container">
-        <div class="row">
+        <div class="row" style="zoom:0.8;"> 
             <span class="center">
                 <a href="https://impactchallenge.withgoogle.com/deutschland/charity/IT4Kids" data-toggle="tooltip"
                     title="Erfahre mehr über Google Impact Challenge">
-                    Winners of <img src="{{ URL::to('/') }}/images/medal.png" alt="Medal" style="height:60px;">
+                    Gewinner der <img src="{{ URL::to('/') }}/images/medal.png" alt="Medal" style="height:60px;">
                 </a>
                 <a onclick="toggle_celebration()" data-toggle="tooltip" title="Klicke hier für eine Überrashung">
                     <img id="celebrate" src="{{ URL::to('/') }}/images/celebrate.png" alt="Celebration"
@@ -15,7 +15,7 @@
             </span>
             
         </div>
-        <div class="row pt-3">
+        <div class="row pt-3" style="zoom:0.8;">
             <img class="center" src="{{ URL::to('/') }}/images/robot.gif" style="height:200px;" id="robot">
         </div>
         <div class="row">

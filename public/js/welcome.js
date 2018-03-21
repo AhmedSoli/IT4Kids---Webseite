@@ -43,7 +43,7 @@ function toggle_celebration() {
 =            Typing & Erasing Effect            =
 ===============================================*/
 var typed = new Typed('.main_text', {
-    strings: ["IT4Kids ist ein dynamisches Team von Studenten aus unterschiedlichsten Fachrichtungen, welche sich zum Ziel gesetzt haben Informatik an deutsche Schulen zu bringen.", "Wir setzen darauf, bereits in Grundschulen Kurse einzurichten, um den Kindern ein grundlegendes Verständnis zu ermöglichen."],
+    strings: ["IT4Kids ist ein dynamisches Team von Studenten aus unterschiedlichsten Fachrichtungen, welche sich zum Ziel gesetzt haben Informatik an deutsche Schulen zu bringen.", "Wir setzen darauf, bereits in Grundschulen Kurse einzurichten, um den Kindern ein grundlegendes Verständnis von Informatik zu ermöglichen."],
     typeSpeed: 30,
     backSpeed: 0,
     fadeOut: true,
