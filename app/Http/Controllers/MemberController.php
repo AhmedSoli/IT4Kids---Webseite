@@ -33,6 +33,10 @@ class MemberController extends Controller
             'leader' => 'required|boolean'
         ]);
 
+        if ($request->image == "") {
+            $request->image = "  ";
+        }
+
         $member = new Member(['name' => $request->name, 'description' => $request->description, 'image' => $request->image,'leader' => $request->leader,'email' => $request->email]);
         $member->save();
         return back();
