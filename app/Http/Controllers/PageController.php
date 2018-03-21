@@ -18,7 +18,7 @@ class PageController extends Controller
 
     public function welcome()
     {
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at','desc')->limit(3)->get();
         return view('public.welcome', compact('posts'));
     }
 
