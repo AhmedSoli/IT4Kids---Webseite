@@ -13,22 +13,22 @@
         </span>
     </div>
     <div class="row pb-5">
-        <div class="col-sm-6">
+        <div class="col-6">
             <p>
                 Diese Vision ist es, was uns antreibt. Wir sind eine Gruppe von Studenten, die im Rahmen von <a href="http://aachen.enactus.de/" class="link">Enactus Aachen</a>  das Projekt IT4Kids gestartet haben. Einige von uns programmieren selbst schon seit jungen Jahren, während andere diese Chance bis ins Studium nicht hatten. Um diesen Missstand zu beheben haben wir uns zusammengetan.
             </p>
             <p>Informatik wird an deutschen Schulen in der Regel frühestens ab der Mittelstufe (Klasse 7) gelehrt. Früher gibt es wenig Angebote, und der „PC-Unterricht“ an Schulen ist oft auf das Bedienen des Rechners und Standardanwengungen (Office, Bildbearbeitung) beschränkt.
             </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="{{ URL::to('/') }}/images/vision.jpg" alt="" class="img-fluid img shadow" style="max-height:300px; border-radius: 15px;padding:5px;">
         </div>
     </div>
     <div class="row pb-5">
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="{{ URL::to('/') }}/images/vision_two.jpg" alt="" class="img-fluid img shadow" style="max-height:300px; border-radius: 15px;padding:5px;">
         </div>
-        <div class="col-sm-6">
+        <div class="col-6">
             <p>
                 Die naheliegendste Lösung wäre es natürlich, mit Schulen zu kooperieren, sodass diese Programmierung in den Unterricht aufnehmen oder als AG anbieten können. Dieses Angebot bieten wir auch, allerdings werden laut einer Studie bis 2025 35.000 Lehrer fehlen <a href="https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2018/januar/lehrermangel-in-grundschulen-verschaerft-sich/" class="link">Bertelsmann Stiftung, 2018</a>. Dieser Personalmangel macht es für viele Schulen sehr schwierig eigene Angebote zu entwickeln oder anzubieten.
             </p>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-6">
             <p>
             Neben der Organisation der Kurse hat IT4Kids noch zwei wichtige Aufgabenbereiche: Die Entwicklung von <a href="{{route('lehrmaterial')}}" class="link">Lehrmaterial</a> und <a href="{{route('software')}}" class="link">Lernsoftware </a>. Beides dient dazu, den Unterricht möglichst einfach durchführen zu können und die Erfahrung der Kinder zu optimieren.
         </p>
@@ -49,7 +49,7 @@
             Um auf dem neusten Stand zu bleiben empfehlen wir auch unseren <a href="{{route('blog')}}" class="link">Blog</a>. Wenn wir Interesse geweckt haben nehmen Sie gerne <a href="/#mitmachen">Kontakt</a> zu uns auf.
         </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="{{ URL::to('/') }}/images/vision_three.jpg" alt="" class="img-fluid img shadow" style="max-height:300px; border-radius: 15px;padding:5px;">
         </div>
     </div>

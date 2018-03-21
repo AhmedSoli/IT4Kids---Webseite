@@ -14,7 +14,7 @@
 <div class="row">
     @foreach($leaders as $leader)
     <div class="col-md-3">
-        <div class="card">
+        <div class="card shadow">
             <img class="card-img-top img-fluid" src="{{$leader->image}}" alt="Card image">
             <div class="card-body text-center">
                 <h4 class="card-title center">{{$leader->name}}</h4>

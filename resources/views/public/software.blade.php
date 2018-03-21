@@ -32,13 +32,13 @@
 </div>
 </div>
 <div class="row pb-5 pt-5">
-<div class="col-6">
-    <p>Sobald alle der obigen Funktionen implementiert sind planen wir ein umfangreiches Logging einzurichten. Das erlaubt es uns einerseits der Lehrperson individuelles Feedback zu geben, welcher Schüler derzeit Hilfe bei der vorliegenden Lektion benötigt, sowie größere (und anonymisierte) Datenanalyse, um einerseits unser Material zu verbessern und andererseits auf lange Sicht auch eine Empfehlung für die Leistungsbewertung abgeben zu können.
-    </p>
-</div>
 <div class="col-6 text-center">
     <h3 class=" center">Learning analytics</h3>
     <img src="{{ URL::to('/') }}/images/analytics.png" alt="" class="img img-fluid center" style="max-height:200px;">
+</div>
+<div class="col-6">
+    <p>Sobald alle der obigen Funktionen implementiert sind planen wir ein umfangreiches Logging einzurichten. Das erlaubt es uns einerseits der Lehrperson individuelles Feedback zu geben, welcher Schüler derzeit Hilfe bei der vorliegenden Lektion benötigt, sowie größere (und anonymisierte) Datenanalyse, um einerseits unser Material zu verbessern und andererseits auf lange Sicht auch eine Empfehlung für die Leistungsbewertung abgeben zu können.
+    </p>
 </div>
 </div>
 @endsection
