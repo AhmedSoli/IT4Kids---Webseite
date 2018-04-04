@@ -3,15 +3,15 @@
 <section id="main">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 text-center" >
+            <div class="col-sm-4 col-12 text-center" >
                 <div class="row pb-3">
                     <div class="center">
-                        <div class="row">
+                        <div class="row" >
                             <a href="https://impactchallenge.withgoogle.com/deutschland/charity/IT4Kids" data-toggle="tooltip"
-                                title="Erfahre mehr über Google Impact Challenge">
+                                title="Erfahre mehr über Google Impact Challenge" class="winners">
                                 Winners of <img src="{{ URL::to('/') }}/images/medal.png" alt="Medal" style="height:60px;">
                             </a>
-                            <a onclick="toggle_celebration()" data-toggle="tooltip" title="Klicke hier für eine Überrashung">
+                            <a onclick="toggle_celebration()" data-toggle="tooltip" title="Klicke hier für eine Überrashung" class="winners">
                                 <img id="celebrate" src="{{ URL::to('/') }}/images/celebrate.png" alt="Celebration"
                                 style="height:20px; margin-bottom:-25px!important;">
                             </a>
@@ -22,7 +22,7 @@
                     <img src="{{ URL::to('/') }}/images/robot.gif" style="height:150px;margin-left:auto;margin-right:auto;" id="robot">
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-8 col-12">
                 <div>
                     <span style="font-size: 50px;line-height: 200%;opacity: 0.2;">❝</span>
                     <p  style="margin-top:-40px;color:gray">
@@ -95,6 +95,11 @@ $('#softwareHeading').show();
 @endsection
 @section('style')
 <style>
+@media (min-width:576px) {
+    .winners {
+        padding-top:50px;
+    }
+}
 @media (min-width: 769px) {
 .card p {
 padding-left:5%;
