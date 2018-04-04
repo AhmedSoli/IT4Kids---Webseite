@@ -95,21 +95,15 @@ $('#softwareHeading').show();
 @endsection
 @section('style')
 <style>
-@media (max-width: 768px) {
-.card2 {
-margin-top:15px !important;
-margin-bottom: -50px;
-}
-}
 @media (min-width: 769px) {
 .card p {
 padding-left:5%;
 padding-right: 5%;
 }
 }
-@media (max-width: 991px) and (min-width: 769px) {
+@media (max-width: 991px) {
 #cards .card {
-height:300px !important;
+height:350px !important;
 }
 #cards .card h3 {
 padding-top:25% !important;
