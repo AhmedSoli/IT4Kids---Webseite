@@ -12,7 +12,7 @@ class="initRobot"></span></li>
 <style>
 @media (max-width: 991px){
 .console {
-min-height:200px !important;
+min-height:220px !important;
 }}
 /* Console*/
 .console {

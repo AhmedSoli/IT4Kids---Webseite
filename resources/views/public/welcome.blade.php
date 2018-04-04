@@ -3,7 +3,7 @@
 <section id="main">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 text-center" style="padding-top: 50px;">
+            <div class="col-sm-6 text-center" >
                 <div class="row pb-3">
                     <div class="center">
                         <div class="row">
