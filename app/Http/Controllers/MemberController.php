@@ -60,8 +60,6 @@ class MemberController extends Controller
     {
         $request->validate([
             'name' => 'required|string',
-            'email' => 'required|email',
-            'image' => 'required|url',
             'description' => 'required|string',
             'leader' => 'required|boolean'
         ]);

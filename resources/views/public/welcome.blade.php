@@ -2,35 +2,38 @@
 @section('content')
 <section id="main">
     <div class="container">
-        <div class="row" style="zoom:0.8;"> 
-            <span class="center">
-                <a href="https://impactchallenge.withgoogle.com/deutschland/charity/IT4Kids" data-toggle="tooltip"
-                    title="Erfahre mehr über Google Impact Challenge">
-                    Gewinner der <img src="{{ URL::to('/') }}/images/medal.png" alt="Medal" style="height:60px;">
-                </a>
-                <a onclick="toggle_celebration()" data-toggle="tooltip" title="Klicke hier für eine Überrashung">
-                    <img id="celebrate" src="{{ URL::to('/') }}/images/celebrate.png" alt="Celebration"
-                    style="height:20px;">
-                </a>
-            </span>
-            
-        </div>
-        <div class="row pt-3" style="zoom:0.8;">
-            <img class="center" src="{{ URL::to('/') }}/images/robot.gif" style="height:200px;" id="robot">
-        </div>
         <div class="row">
-            <span class="center">
-                <span style="font-size: 50px;line-height: 200%;opacity: 0.2;">❝</span>
-                <p  style="margin-top:-40px;color:gray">
-                    <i>Everybody should learn how to  <strong style="color:black">code</strong>, because it teaches you how to  <strong style="color:black">think</strong>.
-                    <br>
-                    <span style="color:black;font-size: small;">- Steve Jobs</span>
-                    </i>
-                </p>
-            </span>
-        </div>
-        <div class="row">
+            <div class="col-6" style="zoom:0.8;">
+                <div class="row">
+                    <span class="center">
+                        <a href="https://impactchallenge.withgoogle.com/deutschland/charity/IT4Kids" data-toggle="tooltip"
+                            title="Erfahre mehr über Google Impact Challenge">
+                            Gewinner der <img src="{{ URL::to('/') }}/images/medal.png" alt="Medal" style="height:60px;">
+                        </a>
+                        <a onclick="toggle_celebration()" data-toggle="tooltip" title="Klicke hier für eine Überrashung">
+                            <img id="celebrate" src="{{ URL::to('/') }}/images/celebrate.png" alt="Celebration"
+                            style="height:20px;">
+                        </a>
+                    </span>
+                </div>
+                <div class="row pt-3">
+                    <img class="center" src="{{ URL::to('/') }}/images/robot.gif" style="height:200px;" id="robot">
+                </div>
+                <div class="row">
+                    <span class="center">
+                        <span style="font-size: 50px;line-height: 200%;opacity: 0.2;">❝</span>
+                        <p  style="margin-top:-40px;color:gray">
+                            <i>Everybody should learn how to  <strong style="color:black">code</strong>, because it teaches you how to  <strong style="color:black">think</strong>.
+                            <br>
+                            <span style="color:black;font-size: small;">- Steve Jobs</span>
+                            </i>
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="col-6">
                 @include('reusableComponents.console')
+            </div>
         </div>
     </div>
 </section>
